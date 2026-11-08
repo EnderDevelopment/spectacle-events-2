@@ -1,0 +1,13 @@
+name: EventShow
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  event:
+    description: Starts or stops the EventShow at your location.
+    usage: /event <start|stop>
+    permission: eventshow.use
+permissions:
+  eventshow.use:
+    description: Allows controlling the EventShow.
+    default: op
